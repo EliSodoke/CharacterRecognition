@@ -1,0 +1,70 @@
+/*************************************
+Pixel Table
+*************************************/
+.tab1, .tab1-1 {
+}
+
+.pxl, .pxl-color, .drawLetterGrid, .drawLetterGridColor {
+    border-width:1px;
+    border-style:solid; 
+    border-color:#CCCC;
+    width:20px;
+    height:20px;
+}
+
+.pxl-color, .drawLetterGridColor {
+    background-color: black;
+}
+
+.case {
+    border-style:none;
+    width:200px;
+    height:200px;
+}
+
+/**************************************
+Main Menu
+**************************************/
+#topMenu {
+    background-color: black;
+    height: 30px;
+    color: white;
+}
+
+#logout {
+    float: right;
+    margin-right: 30px;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li a, #logout a {
+    float: left;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+#logout a {
+    border-right: none;
+}
+
+nav ul li a:hover, #logout a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav ul li {
+    display: inline;
+}
